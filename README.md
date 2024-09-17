@@ -4,7 +4,7 @@ SSUMC 7기 Spring Boot 스터디 D조
 ## 💻 Member
 | 백종원 | 유지훈 | 이소현 | 최원석 |
 | :---------:|:----------:|:----------:|:----------:|
-| 심바 | 주니 | 안젤라 | 스티치 |
+| 심바 | 주니 | 안젤라 | 스티치 |
 | [BAEK0111](https://github.com/BAEK0111) | [JihuN126](https://github.com/JihuN126) | [sohyunlee0102](https://github.com/sohyunlee0102) | [rudeore-098](https://github.com/rudeore-098) |
 
 ## 📁 디렉토리 구조
