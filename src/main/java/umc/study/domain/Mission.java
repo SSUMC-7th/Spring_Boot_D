@@ -2,7 +2,7 @@ package umc.study.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.study.domain.common.BaseEntity;
+import umc.study.domain.base.BaseEntity;
 import umc.study.domain.mapping.MemberMission;
 
 import java.time.LocalDate;
@@ -23,6 +23,7 @@ public class Mission extends BaseEntity {
 
     private LocalDate deadLine;
 
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String missionSpec;
 
     @ManyToOne(fetch = FetchType.LAZY)

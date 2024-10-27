@@ -2,7 +2,7 @@ package umc.study.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.study.domain.common.BaseEntity;
+import umc.study.domain.base.BaseEntity;
 import umc.study.domain.mapping.MemberPrefer;
 
 import java.util.ArrayList;
@@ -17,9 +17,10 @@ public class FoodCategory extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
+
     private String name;
 
-    @OneToMany(mappedBy = "food_category",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "foodCategory",cascade = CascadeType.ALL)
     private List<MemberPrefer> memberPreferList = new ArrayList<>();
 }

@@ -2,9 +2,7 @@ package umc.study.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.study.domain.common.BaseEntity;
-
-import java.util.List;
+import umc.study.domain.base.BaseEntity;
 
 @Entity
 @Getter
@@ -17,9 +15,13 @@ public class Review extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(nullable = false, length = 20)
     private String title;
 
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String body;
+
+    private Float score;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "member_id")

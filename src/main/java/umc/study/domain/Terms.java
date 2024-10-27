@@ -2,7 +2,7 @@ package umc.study.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.study.domain.common.BaseEntity;
+import umc.study.domain.base.BaseEntity;
 import umc.study.domain.mapping.MemberAgree;
 
 import java.util.ArrayList;
@@ -19,8 +19,10 @@ public class Terms extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(columnDefinition = "TEXT")
     private String title;
 
+    @Column(columnDefinition = "TEXT")
     private String body;
 
     private Boolean optional;
