@@ -31,4 +31,7 @@ public class Review extends BaseEntity {
     @JoinColumn(name = "store_id")
     private Store store;
 
+    @Column(nullable = false, columnDefinition = "TEXT")
+    private String body;
+
 }
