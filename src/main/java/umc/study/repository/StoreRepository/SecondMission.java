@@ -8,7 +8,8 @@ import umc.study.domain.mapping.User;
 INSERT INTO REVIEW (writer, score, details, created_at, user_id)
 VALUES (‘닉네임1234’, 5, ‘음 너무 맛있어요…..’, NOW( ), 1)
  */
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
+
 
 @Repository
 @RequiredArgsConstructor

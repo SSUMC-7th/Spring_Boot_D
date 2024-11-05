@@ -1,5 +1,6 @@
 package umc.study.repository.StoreService;
 
+import org.springframework.stereotype.Service;
 import umc.study.domain.mapping.Restaurant;
 
 import java.util.List;

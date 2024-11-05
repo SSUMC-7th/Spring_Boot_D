@@ -3,6 +3,7 @@ package umc.study.domain.mapping;
 import jakarta.persistence.*;
 import lombok.*;
 import umc.study.domain.base.BaseEntity;
+import umc.study.domain.mapping.Review;
 
 import java.util.ArrayList;
 import java.util.List;

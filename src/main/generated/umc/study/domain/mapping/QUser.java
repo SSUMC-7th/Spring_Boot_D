@@ -53,7 +53,7 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath social = createString("social");
 
-    public final EnumPath<umc.study.domain.enums.Status> Status = createEnum("Status", umc.study.domain.enums.Status.class);
+    public final EnumPath<umc.study.domain.enums.Status> status = createEnum("status", umc.study.domain.enums.Status.class);
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;

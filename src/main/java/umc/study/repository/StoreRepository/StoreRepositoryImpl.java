@@ -23,7 +23,7 @@ public class StoreRepositoryImpl implements StoreRepositoryCustom{
         }
 
         if (store.distance != null) {
-            predicate.and(store.distance.goe(4.0f));
+            predicate.and(store.distance.goe(3.0f));
         }
 
         return jpaQueryFactory
