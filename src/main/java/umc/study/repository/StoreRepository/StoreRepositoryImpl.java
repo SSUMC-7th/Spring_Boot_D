@@ -4,8 +4,8 @@ import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import umc.study.domain.mapping.QRestaurant;
-import umc.study.domain.mapping.Restaurant;
+import umc.study.domain.QStore;
+import umc.study.domain.Store;
 
 import java.util.List;
 
@@ -13,17 +13,18 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StoreRepositoryImpl implements StoreRepositoryCustom{
     private final JPAQueryFactory jpaQueryFactory;
-    private final QRestaurant store = QRestaurant.restaurant;
+    private final QStore store = QStore.store;
 
     @Override
-    public List<Restaurant> dynamicQueryWithBooleanBuilder(String name, Float score) {
+    public List<Store> dynamicQueryWithBooleanBuilder(String name, Float score) {
         BooleanBuilder predicate = new BooleanBuilder();
-        if (store.name != null) {
+
+        if (name != null) {
             predicate.and(store.name.eq(name));
         }
 
-        if (store.distance != null) {
-            predicate.and(store.distance.goe(4.0f));
+        if (score != null) {
+            predicate.and(store.score.goe(4.0f));
         }
 
         return jpaQueryFactory
@@ -32,4 +33,3 @@ public class StoreRepositoryImpl implements StoreRepositoryCustom{
                 .fetch();
     }
 }
-
