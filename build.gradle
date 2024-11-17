@@ -47,6 +47,9 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-data-rest:1.6.9'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// 에러 핸들러를 만들기 위해 validation과 관련된 기능을 사용하기 위한 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 sourceSets {
