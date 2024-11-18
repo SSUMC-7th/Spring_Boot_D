@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a97a26a-cc73-4a57-bcf1-6eb63a21e65b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/MissionAssignedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/MissionAssignedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/MissionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/MissionConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/RestaurantConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/RestaurantConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/ReviewConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/ReviewConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/MissionAssignedService/MissionAssignedCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/MissionAssignedService/MissionAssignedCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/MissionService/MissionCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/MissionService/MissionCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/RestaurantService/RestaurantCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/RestaurantService/RestaurantCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/ReviewService/ReviewCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/ReviewService/ReviewCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistMission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistMissionAssigned.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistMissionAssigned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistRestaurantCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistRestaurantCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/annotation/ExistUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/MissionAssignedExistValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/MissionAssignedExistValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/MissionExistValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/MissionExistValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RegionExistValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RegionExistValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RestaurantCategoryValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RestaurantCategoryValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RestaurantExistValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/RestaurantExistValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/UserExistValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/validation/validator/UserExistValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/MissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/MissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/RegionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/MissionAssignedRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/MissionAssignedRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/MissionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/MissionRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/RestaurantRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/RestaurantRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/ReviewRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/ReviewRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/ReviewResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/ReviewResponseDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/spring">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/spring">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sohyunlee0102&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sohyunlee0102/spring.git&quot;,
+    &quot;accountId&quot;: &quot;338dd26e-c9d5-40d4-b0e3-5612bc9bd30c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nNSz8b4M8R6vWsAdwzHMKOKuF3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Gradle.Build spring.executor": "Run",
+    "Gradle.C:/spring/spring/build.gradle.executor": "Run",
+    "Gradle.spring [:Application.main()].executor": "Run",
+    "Gradle.spring [build].executor": "Run",
+    "Gradle.spring [clean].executor": "Run",
+    "Gradle.spring [dependencies].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/spring/spring/src/main/java/umc/spring/service/MissionAssignedService",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring\spring\src\main\java\umc\spring\service\MissionAssignedService" />
+      <recent name="C:\spring\spring\src\main\java\umc\spring\service\MissionService" />
+      <recent name="C:\spring\spring\src\main\java\umc\spring\service\ReviewService" />
+      <recent name="C:\spring\spring\src\main\java\umc\spring\service\RestaurantService" />
+      <recent name="C:\spring\spring\src\main\java\umc\spring\service\UserService" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="umc.spring.Application" />
+      <module name="spring.spring.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="umc.spring.Application" />
+      <module name="spring.spring.main~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="umc.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.spring [dependencies]" />
+      <item itemvalue="Gradle.spring [build]" />
+      <item itemvalue="Gradle.spring [clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring [build]" />
+        <item itemvalue="Gradle.spring [clean]" />
+        <item itemvalue="Gradle.spring [dependencies]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a97a26a-cc73-4a57-bcf1-6eb63a21e65b" name="Changes" comment="" />
+      <created>1728812299585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728812299585</updated>
+    </task>
+    <task id="LOCAL-00001" summary="mission_5">
+      <option name="closed" value="true" />
+      <created>1729603801057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729603801057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chapter8">
+      <option name="closed" value="true" />
+      <created>1731933079033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731933079033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mission_5" />
+    <MESSAGE value="chapter8" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter8" />
+  </component>
+</project>
