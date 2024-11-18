@@ -6,14 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="b8301062-9213-4cea-809b-4efe095d89a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/querydsl/umc/study/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/querydsl/umc/study/domain/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/FirstMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/FirstMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/FourthMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/FourthMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/SecondMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/SecondMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/ThirdMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/ThirdMission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/API2_ReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/API3_MissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/API1_RegionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository/API1_StoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/API1_StoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/API2_ReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/API3_MissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/API4_MemberMissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/API4_MemberMissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/API1_RegionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/API2_ReviewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/API3_MissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API1_StoreRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API1_StoreResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API2_ReviewRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API2_ReviewResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API3_MissionRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API3_MissionResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API4_MemberMissionResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API4_MemberMissionResponseDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,31 +62,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ApplicationTests.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.StudyApplication.executor": "Run",
-    "git-widget-placeholder": "juni/#6",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yujihun/Desktop/Spring_Boot_D",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StudyApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;juni/#8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yujihun/Desktop/Spring_Boot_D&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/umc" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,6 +114,9 @@
       <workItem from="1730962190829" duration="13000" />
       <workItem from="1730962822915" duration="302000" />
       <workItem from="1730963229874" duration="528000" />
+      <workItem from="1731904023331" duration="418000" />
+      <workItem from="1731921026703" duration="12000" />
+      <workItem from="1731921075038" duration="64000" />
     </task>
     <servers />
   </component>

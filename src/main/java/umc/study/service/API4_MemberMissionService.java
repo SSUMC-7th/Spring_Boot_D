@@ -7,7 +7,6 @@ import umc.study.domain.Member;
 import umc.study.domain.Mission;
 import umc.study.domain.enums.MissionStatus;
 import umc.study.domain.mapping.MemberMission;
-import umc.study.repository.API3_MissionRepository;
 import umc.study.repository.API4_MemberMissionRepository;
 import umc.study.repository.MemberRepository;
 import umc.study.web.dto.API4_MemberMissionRequestDTO;
