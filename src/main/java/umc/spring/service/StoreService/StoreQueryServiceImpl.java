@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import umc.spring.domain.Store;
-import umc.spring.service.StoreRepository;
+import umc.spring.repository.StoreRepository.StoreRepository;
 
 import java.util.List;
 import java.util.Optional;

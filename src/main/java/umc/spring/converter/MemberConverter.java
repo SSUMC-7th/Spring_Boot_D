@@ -1,4 +1,4 @@
-package umc.spring.web.controller;
+package umc.spring.converter;
 
 import umc.spring.domain.Member;
 import umc.spring.domain.enums.Gender;
