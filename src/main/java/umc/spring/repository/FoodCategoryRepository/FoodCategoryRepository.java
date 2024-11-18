@@ -1,4 +1,4 @@
-package umc.spring.repository.FoodCategory;
+package umc.spring.repository.FoodCategoryRepository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import umc.spring.domain.FoodCategory;
