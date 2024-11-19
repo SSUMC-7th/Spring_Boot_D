@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a97a26a-cc73-4a57-bcf1-6eb63a21e65b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/BaseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/BaseErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/ErrorReasonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/ReasonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/code/status/SuccessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/exception/ExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/exception/GeneralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/apiPayload/exception/handler/TempHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/config/QueryDSLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/converter/TempConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/repository/RestaurantRepository/RestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/repository/RestaurantRepository/RestaurantRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/repository/RestaurantRepository/RestaurantRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/RestaurantService/RestaurantQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/RestaurantService/RestaurantQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/TempService/TempCommandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/TempService/TempCommandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/TempService/TempQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/service/TempService/TempQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/controller/TempRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/TempRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/web/dto/TempResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/AlertOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/AlertOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Mission.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Mission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/umc/spring/domain/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/spring">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/spring">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sohyunlee0102&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sohyunlee0102/spring.git&quot;,
+    &quot;accountId&quot;: &quot;338dd26e-c9d5-40d4-b0e3-5612bc9bd30c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nNSz8b4M8R6vWsAdwzHMKOKuF3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Gradle.Build spring.executor": "Run",
+    "Gradle.C:/spring/spring/build.gradle.executor": "Run",
+    "Gradle.spring [:Application.main()].executor": "Run",
+    "Gradle.spring [build].executor": "Run",
+    "Gradle.spring [clean].executor": "Run",
+    "Gradle.spring [dependencies].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/refactoring",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="umc.spring.Application" />
+      <module name="spring.spring.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="umc.spring.Application" />
+      <module name="spring.spring.main~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="umc.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.spring [dependencies]" />
+      <item itemvalue="Gradle.spring [build]" />
+      <item itemvalue="Gradle.spring [clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring [build]" />
+        <item itemvalue="Gradle.spring [clean]" />
+        <item itemvalue="Gradle.spring [dependencies]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a97a26a-cc73-4a57-bcf1-6eb63a21e65b" name="Changes" comment="" />
+      <created>1728812299585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728812299585</updated>
+    </task>
+    <task id="LOCAL-00001" summary="mission_5">
+      <option name="closed" value="true" />
+      <created>1729603801057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729603801057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mission_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="mission_5" />
+  </component>
+</project>
