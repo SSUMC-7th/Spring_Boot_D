@@ -17,13 +17,15 @@ public class Review extends BaseEntity {
 
     private String title;
 
+    private String content;
+
     private Float score;
     @ManyToOne
-    @JoinColumn(name = "member_id") // 외래 키 이름을 지정합니다.
+    @JoinColumn(name = "member_id")
     private Member member;
 
     @ManyToOne
-    @JoinColumn(name = "store_id") // store_id는 Review 테이블의 외래 키 이름입니다
+    @JoinColumn(name = "store_id")
     private Store store;
 
 }
