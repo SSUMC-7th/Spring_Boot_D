@@ -33,11 +33,11 @@ public class QReview extends EntityPathBase<Review> {
 
     public final QMember member;
 
+    public final StringPath nickname = createString("nickname");
+
     public final NumberPath<Float> score = createNumber("score", Float.class);
 
     public final QStore store;
-
-    public final StringPath title = createString("title");
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;
