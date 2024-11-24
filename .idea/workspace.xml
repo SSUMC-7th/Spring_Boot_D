@@ -5,8 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8301062-9213-4cea-809b-4efe095d89a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/converter/StoreConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/ReviewImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/M9_API1_ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/M9_API1_ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/M9_API1_ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/annotation/ExistStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/annotation/M9_API1_CheckPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/M9_API1_PageValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/StoreExistValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/M9_API1_ReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/StoreRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/M9_API1_ReviewResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_classgraph_classgraph_4_8_147.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_core_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_models_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_data_rest_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_ui_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_webmvc_core_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_swagger_ui_4_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.querydsl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API4_MemberMissionResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/API4_MemberMissionResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/umc/study/domain/QReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/umc/study/domain/QReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreQueryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +67,20 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,11 +89,16 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2oPxmgTMokMurOGsVC02yZWczK3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build Spring_Boot_D.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Spring_Boot_D.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ApplicationTests.executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
@@ -56,7 +108,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.StudyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;juni/#8&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;temp&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/yujihun/Desktop/Spring_Boot_D/src/main/java/umc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -69,12 +121,32 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/umc" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,6 +170,10 @@
       <workItem from="1730962822915" duration="302000" />
       <workItem from="1730963229874" duration="528000" />
       <workItem from="1731904023331" duration="418000" />
+      <workItem from="1732363160321" duration="168000" />
+      <workItem from="1732363335023" duration="2260000" />
+      <workItem from="1732365606088" duration="2796000" />
+      <workItem from="1732426129594" duration="1460000" />
     </task>
     <servers />
   </component>
