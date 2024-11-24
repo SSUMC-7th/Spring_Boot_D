@@ -11,6 +11,7 @@ import umc.study.converter.MissionConverter;
 import umc.study.domain.Mission;
 import umc.study.service.MissionService.MissionCommandService;
 import umc.study.web.dto.MissionRequestDTO;
+import umc.study.web.dto.MissionResponseDTO;
 import umc.study.web.dto.ReviewResponseDTO;
 
 @RestController
@@ -20,7 +21,7 @@ public class MissionRestController {
     private final MissionCommandService missionCommandService;
 
     @PostMapping("/")
-    public ApiResponse<ReviewResponseDTO.ReviewResultDTO> join(@RequestBody @Valid MissionRequestDTO.Mission request) {
+    public ApiResponse<MissionResponseDTO.MissionResultDTO> join(@RequestBody @Valid MissionRequestDTO.MissionDTO request) {
         Mission mission = missionCommandService.joinMission(request);
         return ApiResponse.onSuccess(MissionConverter.toMissionResultDTO(mission));
     }

@@ -5,5 +5,5 @@ import umc.study.domain.Review;
 import umc.study.web.dto.MissionRequestDTO;
 
 public interface MissionCommandService {
-    Mission joinMission(MissionRequestDTO missionRequestDTO);
+    Mission joinMission(MissionRequestDTO.MissionDTO request);
 }

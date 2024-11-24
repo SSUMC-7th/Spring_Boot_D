@@ -10,13 +10,12 @@ import umc.study.web.dto.MissionRequestDTO;
 
 @Service
 @RequiredArgsConstructor
-public class MissionCommandServiceImpl {
+public class MissionCommandServiceImpl implements MissionCommandService {
     private final MissionRepository missionRepository;
 
     @Override
     @Transactional
-    public Mission JoinMission(MissionRequestDTO.MissionDTO request) {
-
+    public Mission joinMission(MissionRequestDTO.MissionDTO request) {
         Mission newMission = MissionConverter.toMission(request);
         return missionRepository.save(newMission);
     }

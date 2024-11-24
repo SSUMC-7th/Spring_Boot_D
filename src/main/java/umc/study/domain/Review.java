@@ -22,7 +22,7 @@ public class Review extends BaseEntity {
 //    @Column(nullable = false, length = 20)
 //    private String title;
 
-    @Column(nullable = false, columnDefinition = "TEXT")
+    @Column(nullable = false, length = 50)
     private String nickname;
 
     @Column(nullable = false, columnDefinition = "TEXT")
@@ -35,6 +35,6 @@ public class Review extends BaseEntity {
     private Member member;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "store_id")
+    @JoinColumn(name = "store_id", nullable = false)
     private Store store;
 }
