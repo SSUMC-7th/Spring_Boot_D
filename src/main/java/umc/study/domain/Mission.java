@@ -20,6 +20,10 @@ public class Mission extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String status;
+
+    private Long userId;
+
     private String title;
 
     private String description;
@@ -35,4 +39,21 @@ public class Mission extends BaseEntity {
     @OneToMany(mappedBy = "mission", cascade = CascadeType.ALL)
     private List<MemberMission> memberMissionList = new ArrayList<>();
 
+    // 진행 상태를 나타내는 필드 추가
+    private Boolean inProgress;
+
+    public void setInProgress(Boolean inProgress) {
+        this.inProgress = inProgress;
+    }
+
+    public Boolean isInProgress() {
+        return this.inProgress;
+    }// setStatus 및 setUserId 메서드 추가
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
 }
