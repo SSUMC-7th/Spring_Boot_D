@@ -9,3 +9,4 @@ import umc.study.domain.Store;
 public interface M9_API2_MissionRepository extends JpaRepository<Mission, Long> {
     Page<Mission> findAllByStore(Store store, Pageable pageable);
 }
+

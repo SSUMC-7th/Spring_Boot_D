@@ -29,6 +29,8 @@ public class QMemberMission extends EntityPathBase<MemberMission> {
 
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
+    public final BooleanPath inProgress = createBoolean("inProgress");
+
     public final umc.study.domain.QMember member;
 
     public final umc.study.domain.QMission mission;
