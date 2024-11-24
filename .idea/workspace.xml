@@ -5,52 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8301062-9213-4cea-809b-4efe095d89a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/converter/StoreConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/ReviewImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/M9_API1_ReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/M9_API1_ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/M9_API1_ReviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/annotation/ExistStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/annotation/M9_API1_CheckPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/M9_API1_PageValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/StoreExistValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/M9_API1_ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/StoreRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/M9_API1_ReviewResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_classgraph_classgraph_4_8_147.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_annotations_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_core_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_models_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_data_rest_1_6_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_ui_1_6_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_webmvc_core_1_6_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_swagger_ui_4_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.querydsl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/umc/study/domain/QReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/umc/study/domain/QReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreQueryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +66,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.StudyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;temp&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;juni/C9#1&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/yujihun/Desktop/Spring_Boot_D/src/main/java/umc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -173,7 +131,7 @@
       <workItem from="1732363160321" duration="168000" />
       <workItem from="1732363335023" duration="2260000" />
       <workItem from="1732365606088" duration="2796000" />
-      <workItem from="1732426129594" duration="1460000" />
+      <workItem from="1732426129594" duration="1937000" />
     </task>
     <servers />
   </component>
