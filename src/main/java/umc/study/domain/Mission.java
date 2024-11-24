@@ -23,7 +23,6 @@ public class Mission extends BaseEntity {
     private String status;
 
     private Long userId;
-
     private String title;
 
     private String description;
