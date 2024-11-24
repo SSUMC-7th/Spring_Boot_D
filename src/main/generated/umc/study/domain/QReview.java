@@ -24,8 +24,8 @@ public class QReview extends EntityPathBase<Review> {
 
     public final umc.study.domain.common.QBaseEntity _super = new umc.study.domain.common.QBaseEntity(this);
 
-    public final StringPath body = createString("body");
 
+    public final StringPath body = createString("body");
     public final StringPath content = createString("content");
 
     //inherited
@@ -35,7 +35,9 @@ public class QReview extends EntityPathBase<Review> {
 
     public final QMember member;
 
+
     public final ListPath<ReviewImage, QReviewImage> reviewImageList = this.<ReviewImage, QReviewImage>createList("reviewImageList", ReviewImage.class, QReviewImage.class, PathInits.DIRECT2);
+
 
     public final NumberPath<Float> score = createNumber("score", Float.class);
 

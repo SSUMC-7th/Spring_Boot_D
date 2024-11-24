@@ -1,10 +1,12 @@
 package umc.study.domain;
 
+
 import lombok.*;
 import umc.study.domain.common.BaseEntity;
 
 import jakarta.persistence.*;
 import java.util.List;
+
 
 @Entity
 @Getter
@@ -18,6 +20,7 @@ public class Review extends BaseEntity {
     private Long id;
 
     private String title;
+
 
     private Float score;
 
