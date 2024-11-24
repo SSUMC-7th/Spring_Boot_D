@@ -7,8 +7,8 @@ import umc.spring.web.dto.MissionResponseDTO;
 import java.time.LocalDateTime;
 
 public class MissionConverter {
-    public static MissionResponseDTO.MissionResultDTO toMissionResultDTO(Mission mission) {
-        return MissionResponseDTO.MissionResultDTO.builder()
+    public static MissionResponseDTO.JoinResultDTO toMissionResultDTO(Mission mission) {
+        return MissionResponseDTO.JoinResultDTO.builder()
                 .missionId(mission.getId())
                 .createdAt(LocalDateTime.now())
                 .storeId(mission.getStore().getId())
