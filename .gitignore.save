@@ -1,0 +1,6 @@
+.DS_Store
+# IDE 설정 파일
+.idea/
+*.iml
+
+# macOS 시스템 파일
