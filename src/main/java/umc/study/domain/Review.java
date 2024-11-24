@@ -5,7 +5,6 @@ import umc.study.domain.common.BaseEntity;
 
 import jakarta.persistence.*;
 import java.util.List;
-
 @Entity
 @Getter
 @Builder
