@@ -20,8 +20,6 @@ public class Mission extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long storeId;
-
     private Integer reward;
 
     private LocalDate deadline;
