@@ -46,7 +46,6 @@ public class StoreConverter {
                     .build();
     }
 
-
     public static StoreResponseDTO.StoreMissionPreViewDTO storeMissionPreViewDTO(Mission mission){
 
         return StoreResponseDTO.StoreMissionPreViewDTO.builder()

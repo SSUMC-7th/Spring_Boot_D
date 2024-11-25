@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import umc.spring.domain.QStore;
 import umc.spring.domain.Store;
-import umc.spring.repository.StoreRepository.StoreRepositoryCustom;
 
 import java.util.List;
 
@@ -17,7 +16,7 @@ public class StoreRepositoryImpl implements StoreRepositoryCustom {
     private final QStore store = QStore.store;
 
     @Override
-    public List<Store> dynamicQueryWithBooleanBuilder(String name, Float score) {
+    public List<Object> dynamicQueryWithBooleanBuilder(String name, Float score) {
         BooleanBuilder predicate = new BooleanBuilder();
 
         if (name != null) {
@@ -28,6 +27,9 @@ public class StoreRepositoryImpl implements StoreRepositoryCustom {
             predicate.and(store.score.goe(4.0f));
         }
 
-        return jpaQueryFactory.selectFrom(store).where(predicate).fetch();
+        return jpaQueryFactory.selectFrom(store).where(predicate).fetch()
+                .stream()
+                .map(store -> (Object) store)
+                .toList(); // Java 16 이상에서는 toList() 사용 가능
     }
 }

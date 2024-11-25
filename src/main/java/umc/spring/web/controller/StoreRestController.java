@@ -18,8 +18,6 @@ import umc.spring.service.StoreService.StoreQueryService;
 import umc.spring.validation.annotation.ExistStore;
 import umc.spring.web.dto.StoreResponseDTO;
 
-import java.util.List;
-
 @RestController
 @RequiredArgsConstructor
 @Validated
@@ -43,6 +41,8 @@ public class StoreRestController {
         Page<Review> reviewList = storeQueryService.getReviewList(storeId,page);
         return ApiResponse.onSuccess(StoreConverter.reviewPreViewListDTO(reviewList));
     }
+
+
 
     @GetMapping("/{storeId}/missions")
     @Operation(summary = "특정 가게의 미션 목록 조회 API",description = "특정 가게의 미션의 목록을 조회하는 API이며, 페이징을 포함합니다. query String 으로 page 번호를 주세요")
