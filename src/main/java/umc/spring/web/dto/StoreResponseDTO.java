@@ -21,7 +21,6 @@ public class StoreResponseDTO {
         Boolean isFirst;
         Boolean isLast;
     }
-
     @Builder
     @Getter
     @NoArgsConstructor
@@ -31,5 +30,29 @@ public class StoreResponseDTO {
         Float score;
         String body;
         LocalDate createdAt;
+    }
+
+    @Builder
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class StoreMissionPreViewListDTO {
+        List<StoreMissionPreViewDTO> missionList;
+        Integer listSize;
+        Integer totalPage;
+        Long totalElements;
+        Boolean isFirst;
+        Boolean isLast;
+    }
+
+    @Builder
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class StoreMissionPreViewDTO {
+        String storeName;
+        Integer reward;
+        String missionSpec;
+        LocalDate deadline;
     }
 }
