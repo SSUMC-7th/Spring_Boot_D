@@ -26,4 +26,31 @@ public class MemberResponseDTO {
         String phone;
         List<Long> memberPreferList;
     }
+
+    @Builder
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class MyOngoingMissionPreviewListDTO{
+        List<MyOngoingMissionPreviewDTO> myOngoingMissionList;
+        Integer listSize;
+        Integer totalPage;
+        Long totalElements;
+        Boolean isFirstPage;
+        Boolean isLastPage;
+    }
+
+
+    @Builder
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class MyOngoingMissionPreviewDTO{
+        String storeName;
+        Integer storeId;
+        Integer missionId;
+        String description;
+        Enum status;
+        Integer reward;
+    }
 }

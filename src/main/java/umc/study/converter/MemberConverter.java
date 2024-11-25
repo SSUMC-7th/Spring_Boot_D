@@ -1,12 +1,14 @@
 package umc.study.converter;
 
 import umc.study.domain.Member;
+import umc.study.domain.Mission;
 import umc.study.domain.enums.Gender;
 import umc.study.web.dto.MemberRequestDTO;
 import umc.study.web.dto.MemberResponseDTO;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MemberConverter {
 
@@ -41,5 +43,13 @@ public class MemberConverter {
                 .name(request.getName())
                 .memberPreferList(new ArrayList<>())
                 .build();
+    }
+
+    public static MemberResponseDTO.MyOngoingMissionPreviewDTO myOngoingMissionPreviewDTO(Mission mission) {
+        return null;
+    }
+
+    public static MemberResponseDTO.MyOngoingMissionPreviewListDTO myOngoingMissionPreviewListDTO(List<Mission> missionList) {
+        return null;
     }
 }
