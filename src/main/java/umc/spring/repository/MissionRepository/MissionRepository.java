@@ -10,5 +10,6 @@ import umc.spring.domain.Store;
 
 public interface MissionRepository extends JpaRepository<Mission, Long> {
     Page<Mission> findAllByStore(Store store, PageRequest pageRequest);
-    Page<Mission> findAllByMember(Member member, PageRequest pageRequest);
+
+    Page<Mission> findAllById(Member member, PageRequest of);
 }

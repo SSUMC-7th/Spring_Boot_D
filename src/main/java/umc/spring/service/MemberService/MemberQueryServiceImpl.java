@@ -34,10 +34,9 @@ public class MemberQueryServiceImpl implements MemberQueryService{
 
     @Override
     public Page<Mission> getMyMissionList(Long memberId, Integer page) {
-
         Member member = memberRepository.findById(memberId).get();
 
-        Page<Mission> myMissionPage = missionRepository.findAllByMember(member, PageRequest.of(page, 10));
+        Page<Mission> myMissionPage = missionRepository.findAllById(member, PageRequest.of(page, 10));
         return myMissionPage;
     }
 
