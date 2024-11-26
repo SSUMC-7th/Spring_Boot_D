@@ -28,4 +28,6 @@ public class MemberMission extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "mission_id") // Mission의 외래 키
     private Mission mission;
+
+    private Boolean inProgress; // 진행 여부
 }

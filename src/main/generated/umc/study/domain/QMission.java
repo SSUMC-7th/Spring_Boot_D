@@ -33,9 +33,13 @@ public class QMission extends EntityPathBase<Mission> {
 
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
+    public final BooleanPath inProgress = createBoolean("inProgress");
+
     public final ListPath<umc.study.domain.mapping.MemberMission, umc.study.domain.mapping.QMemberMission> memberMissionList = this.<umc.study.domain.mapping.MemberMission, umc.study.domain.mapping.QMemberMission>createList("memberMissionList", umc.study.domain.mapping.MemberMission.class, umc.study.domain.mapping.QMemberMission.class, PathInits.DIRECT2);
 
     public final NumberPath<Integer> reward = createNumber("reward", Integer.class);
+
+    public final StringPath status = createString("status");
 
     public final QStore store;
 
@@ -43,6 +47,8 @@ public class QMission extends EntityPathBase<Mission> {
 
     //inherited
     public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;
+
+    public final NumberPath<Long> userId = createNumber("userId", Long.class);
 
     public QMission(String variable) {
         this(Mission.class, forVariable(variable), INITS);

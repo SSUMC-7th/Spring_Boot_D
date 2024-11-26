@@ -28,15 +28,26 @@ dependencies {
 	annotationProcessor "jakarta.annotation:jakarta.annotation-api"
 	annotationProcessor "jakarta.persistence:jakarta.persistence-api"
 
-	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
-	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.3'
-	implementation 'com.fasterxml.jackson.core:jackson-core:2.13.3'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
+	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.0'
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.15.0'
+
+	implementation 'org.antlr:antlr4-runtime:4.10'
 
 	compileOnly 'org.projectlombok:lombok:1.18.22'
 	annotationProcessor 'org.projectlombok:lombok:1.18.22'
 
-	implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
-	implementation 'org.springdoc:springdoc-openapi-data-rest:1.6.9'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// 에러 핸들러를 만들기 위해 validation과 관련된 기능을 사용하기 위한 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	// Swagger 세팅
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+	implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
+	implementation 'org.springdoc:springdoc-openapi-data-rest:1.7.0'
+
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
