@@ -22,7 +22,6 @@ public class MemberRequestDTO {
         Integer birthMonth;
         @NotNull
         Integer birthDay;
-        @Size(min = 5, max = 90)
         Integer age;
         @Size(min = 5, max = 12)
         String address;
