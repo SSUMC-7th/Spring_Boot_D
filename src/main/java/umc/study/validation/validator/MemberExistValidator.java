@@ -6,9 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import umc.study.ApiPayload.code.status.ErrorStatus;
 import umc.study.repository.MemberRepository.MemberRepository;
-import umc.study.validation.annotation.ExistCategories;
 import umc.study.validation.annotation.ExistMembers;
-import umc.study.validation.annotation.ExistPages;
 
 
 @Component

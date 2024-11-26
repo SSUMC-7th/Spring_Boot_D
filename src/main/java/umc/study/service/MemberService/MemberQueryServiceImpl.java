@@ -22,10 +22,7 @@ import umc.study.repository.StoreRepository.StoreRepository;
 public class MemberQueryServiceImpl implements MemberQueryService {
 
     public final MemberRepository memberRepository;
-    private final MissionRepository missionRepository;
-    private final StoreRepository storeRepository;
     private final ReviewRepository reviewRepository;
-
 
     @Override
     public Page<Mission> getMyOngoingMissionList(Integer memberId, Integer page, String status) {

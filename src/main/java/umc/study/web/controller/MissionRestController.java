@@ -23,7 +23,7 @@ public class MissionRestController {
     private final MissionCommandService missionCommandService;
 
     @PostMapping("/")
-    public ApiResponse<MissionResponseDTO.MissionResultDTO> join(@ExistPages @RequestBody @Valid MissionRequestDTO.MissionDTO request) {
+    public ApiResponse<MissionResponseDTO.MissionResultDTO> join( @RequestBody @Valid MissionRequestDTO.MissionDTO request) {
         Mission mission = missionCommandService.joinMission(request);
         return ApiResponse.onSuccess(MissionConverter.toMissionResultDTO(mission));
     }
