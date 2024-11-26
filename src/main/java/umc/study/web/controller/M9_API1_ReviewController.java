@@ -21,7 +21,7 @@ public class M9_API1_ReviewController {
     private final M9_API1_ReviewService reviewService;
 
     @GetMapping("/store")
-    @Operation(summary = "특정 가게의 리뷰 목록 조회", description = "특정 가게에 작성된 리뷰를 페이징 처리하여 조회합니다.")
+    @Operation(summary = "내가 작성한 리뷰 목록", description = "내가 작성한 리뷰 목록을 페이징 처리하여 조회합니다.")
     @ApiResponses({
             @io.swagger.v3.oas.annotations.responses.ApiResponse(responseCode = "200", description = "성공"),
             @io.swagger.v3.oas.annotations.responses.ApiResponse(responseCode = "400", description = "잘못된 요청"),
@@ -29,10 +29,10 @@ public class M9_API1_ReviewController {
             @io.swagger.v3.oas.annotations.responses.ApiResponse(responseCode = "500", description = "서버 에러")
     })
     public ResponseEntity<Page<M9_API1_ReviewResponseDTO>> getStoreReviews(
-            @RequestParam(name = "storeId") Long storeId,
+            @RequestParam(name = "userId") Long userId,
             @RequestParam(name = "page", defaultValue = "0") @M9_API1_CheckPage Integer page) {
 
-        Page<M9_API1_ReviewResponseDTO> reviews = reviewService.getReviewList(storeId, page);
+        Page<M9_API1_ReviewResponseDTO> reviews = reviewService.getReviewList(userId, page);
 
         return ResponseEntity.ok(reviews);
     }

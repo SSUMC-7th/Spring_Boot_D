@@ -25,7 +25,6 @@ public class M9_API4_MissionController {
     public ResponseEntity<String> completeMission(
             @PathVariable Long missionId,
             @RequestParam(name = "userId") Long userId) {
-
         try {
             missionService.completeMission(missionId, userId);
             return ResponseEntity.ok("Mission completed successfully.");
