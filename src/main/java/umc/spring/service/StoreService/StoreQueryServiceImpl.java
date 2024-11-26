@@ -6,11 +6,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import umc.spring.domain.Member;
 import umc.spring.domain.Mission;
 import umc.spring.domain.Review;
 import umc.spring.domain.Store;
-import umc.spring.repository.MemberRepository.MemberRepository;
 import umc.spring.repository.MissionRepository.MissionRepository;
 import umc.spring.repository.ReviewRepository.ReviewRepository;
 import umc.spring.repository.StoreRepository.StoreRepository;
@@ -33,8 +31,8 @@ public class StoreQueryServiceImpl implements StoreQueryService{
     }
 
     @Override
-    public List<Store> findStoresByNameAndScore(String name, Float score) {
-        List<Store> fileterdStores = storeRepository.dynamicQueryWithBooleanBuilder(name, score);
+    public List<Object> findStoresByNameAndScore(String name, Float score) {
+        List<Object> fileterdStores = storeRepository.dynamicQueryWithBooleanBuilder(name, score);
 
         fileterdStores.forEach(store -> System.out.println("Store : "+ store));
 

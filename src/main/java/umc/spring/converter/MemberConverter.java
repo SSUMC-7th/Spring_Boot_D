@@ -80,8 +80,8 @@ public class MemberConverter {
                 .build();
     }
     public static MemberResponseDTO.myMissionPreViewListDTO myMissionPreViewListDTO(Page<Mission> missionList){
-        List<StoreResponseDTO.StoreMissionPreViewDTO> myMissionPreViewDTOList = missionList.stream()
-                .map(StoreConverter::storeMissionPreViewDTO).collect(Collectors.toList());
+        List<MemberResponseDTO.myMissionPreViewDTO> myMissionPreViewDTOList = missionList.stream()
+                .map(MemberConverter::myMissionPreViewDTO).collect(Collectors.toList());
 
         return MemberResponseDTO.myMissionPreViewListDTO.builder()
                 .isLast(missionList.isLast())
@@ -89,7 +89,7 @@ public class MemberConverter {
                 .totalPage(missionList.getTotalPages())
                 .totalElements(missionList.getTotalElements())
                 .listSize(myMissionPreViewDTOList.size())
-                .missionList(myMissionPreViewDTOList)
+                .myMissionList(myMissionPreViewDTOList)
                 .build();
     }
 }

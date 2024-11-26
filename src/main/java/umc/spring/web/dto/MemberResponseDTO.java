@@ -51,7 +51,7 @@ public class MemberResponseDTO {
     @NoArgsConstructor
     @AllArgsConstructor
     public static class myMissionPreViewListDTO {
-        List<myMissionPreViewDTO> missionList;
+        List<myMissionPreViewDTO> myMissionList;
         Integer listSize;
         Integer totalPage;
         Long totalElements;
