@@ -17,7 +17,7 @@ import umc.spring.web.dto.ReviewResponseDTO;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/{storeId}/reviews")
+@RequestMapping("/reviews")
 @Validated
 public class ReviewController {
 
