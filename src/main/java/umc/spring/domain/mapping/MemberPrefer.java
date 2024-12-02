@@ -24,6 +24,7 @@ public class MemberPrefer extends BaseEntity {
     @JoinColumn(name = "category_id")
     private FoodCategory foodCategory;
 
+<<<<<<< HEAD
     public void setMember(Member member){
         if(this.member != null)
             member.getMemberPreferList().remove(this);
@@ -33,4 +34,7 @@ public class MemberPrefer extends BaseEntity {
     public void setFoodCategory(FoodCategory foodCategory){
         this.foodCategory = foodCategory;
     }
+=======
+
+>>>>>>> 58ac144 (practice)
 }
