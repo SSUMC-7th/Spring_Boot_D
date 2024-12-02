@@ -32,10 +32,12 @@ public class MemberCommandServiceImpl implements MemberCommandService {
     @Override
     @Transactional
     public Member joinMember(MemberRequestDTO.JoinDto request) {
+        System.out.println("joinMember method called with request: " + request);
 
         Member newMember = MemberConverter.toMember(request);
-
         newMember.encodePassword(passwordEncoder.encode(request.getPassword()));
+        System.out.println("New member created: " + newMember);
+
         List<FoodCategory> foodCategoryList = request.getPreferCategory().stream()
                 .map(category -> {
                     System.out.println("Checking category ID: " + category);
@@ -46,6 +48,7 @@ public class MemberCommandServiceImpl implements MemberCommandService {
 
         memberPreferList.forEach(memberPrefer -> {memberPrefer.setMember(newMember);});
 
+        System.out.println("Saving new member to repository.");
         return memberRepository.save(newMember);
     }
 }

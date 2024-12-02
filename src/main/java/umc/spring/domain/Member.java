@@ -23,6 +23,8 @@ import java.util.List;
 @Entity
 @Getter
 @Builder
+@DynamicUpdate
+@DynamicInsert
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 public class Member extends BaseEntity {
@@ -56,7 +58,10 @@ public class Member extends BaseEntity {
     @ColumnDefault("0")
     private Integer point;
 
-    @Column(nullable = false, unique = true)
+//    @Column(nullable = false, unique = true)
+//    private String email;
+
+    @Column(nullable = false, length = 50)
     private String email;
 
     @Column(nullable = false)
@@ -65,9 +70,6 @@ public class Member extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    public void encodePassword(String password) {
-        this.password = password;
-    }
 
     @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
     private List<MemberAgree> memberAgreeList = new ArrayList<>();
@@ -80,4 +82,7 @@ public class Member extends BaseEntity {
 
     @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
     private List<MemberMission> memberMissionList = new ArrayList<>();
+    public void encodePassword(String password) {
+        this.password = password;
+    }
 }
