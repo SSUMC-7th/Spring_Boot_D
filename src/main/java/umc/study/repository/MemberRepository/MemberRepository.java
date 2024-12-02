@@ -6,6 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import umc.study.domain.Member;
 import umc.study.domain.Mission;
 
+import java.util.Optional;
+
 public interface MemberRepository extends JpaRepository<Member, Integer> {
     Page<Mission> findAllById(Member member, PageRequest pageRequest);
+    Optional<Member> findByEmail(String email);
+
 }

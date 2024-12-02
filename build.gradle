@@ -56,6 +56,8 @@ dependencies {
 
 	// Thymeleaf 의존성 추가
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	// Gradle 사용 시
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 }
 
 sourceSets {

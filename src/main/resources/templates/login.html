@@ -15,9 +15,6 @@
         <input type="password" id="password" name="password" required>
     </div>
     <button type="submit">Login</button>
-    <div th:if="${message}">
-        <p th:text="${message}"></p>
-    </div>
 </form>
 <p th:if="${param.error}">사용자 이름 또는 비밀번호가 잘못되었습니다.</p>
 <p th:if="${param.logout}">로그아웃되었습니다.</p>
