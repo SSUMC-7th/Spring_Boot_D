@@ -49,6 +49,13 @@ dependencies {
 
 	// Swagger 세팅
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+	// 로그인 관련 보안 추가
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	// Thymeleaf 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 sourceSets {
