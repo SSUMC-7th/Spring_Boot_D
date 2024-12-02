@@ -16,6 +16,8 @@
     </div>
     <button type="submit">Login</button>
 </form>
+<a th:href="@{/oauth2/authorization/kakao}">카카오로 로그인</a>
+
 <p th:if="${param.error}">사용자 이름 또는 비밀번호가 잘못되었습니다.</p>
 <p th:if="${param.logout}">로그아웃되었습니다.</p>
 <!-- 회원가입 링크 수정 -->
