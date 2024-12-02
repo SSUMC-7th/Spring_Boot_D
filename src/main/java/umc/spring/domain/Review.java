@@ -2,7 +2,6 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 import org.hibernate.annotations.CascadeType;
 import umc.spring.domain.common.BaseEntity;
 

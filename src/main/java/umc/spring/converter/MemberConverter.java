@@ -40,10 +40,13 @@ public class MemberConverter {
         }
 
         return Member.builder()
+                .name(request.getName())
+                .email(request.getEmail())   // 추가된 코드
+                .password(request.getPassword())   // 추가된 코드
+                .gender(gender)
                 .address(request.getAddress())
                 .specAddress(request.getSpecAddress())
-                .gender(gender)
-                .name(request.getName())
+                .role(request.getRole())   // 추가된 코드
                 .memberPreferList(new ArrayList<>())
                 .build();
     }
