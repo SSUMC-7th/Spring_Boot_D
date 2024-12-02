@@ -19,16 +19,11 @@ public class Region extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-<<<<<<< HEAD
     @Column(nullable = false, length = 20)
     private String name;
 
     @OneToMany(mappedBy = "region", cascade = CascadeType.ALL)
     private List<Store> memberMissionList = new ArrayList<>();
-=======
-    private String name;
 
-//    @OneToMany(mappedBy = "region", cascade = CascadeType.ALL)
-//    private List<Store> memberMissionList = new ArrayList<>();
->>>>>>> 58ac144 (practice)
+
 }

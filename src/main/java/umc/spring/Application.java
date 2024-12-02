@@ -3,14 +3,12 @@ package umc.spring;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import umc.spring.service.StoreService.StoreQueryService;
-=======
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
->>>>>>> 58ac144 (practice)
+
 
 @SpringBootApplication
 @EnableJpaAuditing

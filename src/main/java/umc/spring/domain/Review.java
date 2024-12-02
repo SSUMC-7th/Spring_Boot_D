@@ -2,10 +2,6 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-<<<<<<< HEAD
-
-=======
->>>>>>> 58ac144 (practice)
 import org.hibernate.annotations.CascadeType;
 import umc.spring.domain.common.BaseEntity;
 
@@ -26,7 +22,6 @@ public class Review extends BaseEntity {
     private String title;
 
     private Float score;
-<<<<<<< HEAD
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "member_id")
@@ -39,6 +34,4 @@ public class Review extends BaseEntity {
     @Column(nullable = false, columnDefinition = "TEXT")
     private String body;
 
-=======
->>>>>>> 58ac144 (practice)
 }
